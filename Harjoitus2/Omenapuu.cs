@@ -14,6 +14,7 @@ namespace Harjoitus2
 
         public void KasvataOmenat()
         {
+            omenat.Clear();
             Random rand = new Random();
             for (int i = 0; i < Omenienmaara; i++)
             {
